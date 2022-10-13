@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: Center(
-        child:  Text("Fer Feroo!!!", style: TextStyle(color: Colors.red),),
+        child:  Text("Fer-ferro!!!", style: TextStyle(color: Colors.red),),
       )
 
     );

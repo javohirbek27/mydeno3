@@ -11,8 +11,12 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      appBar: AppBar(
+        title: Text("Fer-ferrolar saytiga xush kelibsiz!", style: TextStyle(color: Colors.black),),
+         centerTitle: true,
+      ),
       body: Center(
-        child:  Text("Fer-ferro!!!", style: TextStyle(color: Colors.red),),
+        child:  Text("FakaFeri!!!", style: TextStyle(color: Colors.red),),
       )
 
     );
